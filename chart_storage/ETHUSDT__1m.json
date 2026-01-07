@@ -1,0 +1,31 @@
+{
+  "indicators": [
+    {
+      "id": "temp_1767472258426",
+      "name": "rsi",
+      "displayName": "Relative Strength Index",
+      "parameters": {
+        "period": 14,
+        "source": "close",
+        "overbought": 70,
+        "oversold": 30
+      },
+      "color": "#FFD166",
+      "visible": true,
+      "seriesType": "line",
+      "lineWidth": 2,
+      "loading": true,
+      "isTemp": true,
+      "backendConfig": {
+        "name": "rsi",
+        "type": "momentum",
+        "params": {
+          "period": 14,
+          "source": "close",
+          "overbought": 70,
+          "oversold": 30
+        }
+      }
+    }
+  ]
+}

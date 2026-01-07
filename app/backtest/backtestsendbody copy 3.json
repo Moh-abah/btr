@@ -1,0 +1,462 @@
+[API Proxy
+] Received request for /api/v1/backtest/run
+[API Proxy
+] Payload: {
+    "name": "New Strategy",
+    "version": "1.0.0",
+    "description": "سمنسمنمسن",
+    "base_timeframe": "1h",
+    "allowed_timeframes": [
+        "1h",
+        "4h",
+        "1d"
+    ],
+    "position_side": "both",
+    "initial_capital": 10000,
+    "commission_rate": 0.001,
+    "indicators": [],
+    "entry_rules": [
+        {
+            "name": "RSI Entry",
+            "condition": {
+                "type": "indicator_value",
+                "operator": "<",
+                "left_value": "indicator:rsi",
+                "right_value": 30
+            },
+            "position_side": "long",
+            "weight": 0.5,
+            "enabled": true
+        }
+    ],
+    "exit_rules": [
+        {
+            "name": "RSI Exit",
+            "condition": {
+                "type": "indicator_value",
+                "operator": ">",
+                "left_value": "indicator:rsi",
+                "right_value": 70
+            },
+            "exit_type": "signal_exit",
+            "enabled": true
+        }
+    ],
+    "filter_rules": [],
+    "risk_management": {
+        "stop_loss_percentage": 2,
+        "take_profit_percentage": 4,
+        "trailing_stop_percentage": 1,
+        "max_position_size": 0.1,
+        "max_daily_loss": 5,
+        "max_concurrent_positions": 3
+    },
+    "require_confirmation": false,
+    "confirmation_timeframe": "4h",
+    "max_signals_per_day": null,
+    "strategy_config": {
+        "name": "New Strategy",
+        "version": "1.0.0",
+        "description": "",
+        "base_timeframe": "1h",
+        "allowed_timeframes": [
+            "1h",
+            "4h",
+            "1d"
+        ],
+        "position_side": "both",
+        "initial_capital": 10000,
+        "commission_rate": 0.001,
+        "indicators": [
+            {
+                "name": "sma_8_1h",
+                "type": "trend",
+                "params": {
+                    "period": 8
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            },
+            {
+                "name": "sma_13_1h",
+                "type": "trend",
+                "params": {
+                    "period": 13
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            },
+            {
+                "name": "sma_21_1h",
+                "type": "trend",
+                "params": {
+                    "period": 21
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            },
+            {
+                "name": "sma_50_1h",
+                "type": "trend",
+                "params": {
+                    "period": 50
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            },
+            {
+                "name": "sma_fast",
+                "type": "trend",
+                "params": {
+                    "period": 10
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            },
+            {
+                "name": "momentum_5m",
+                "type": "momentum",
+                "params": {
+                    "period": 10
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            },
+            {
+                "name": "momentum_10m",
+                "type": "momentum",
+                "params": {
+                    "period": 10
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            },
+            {
+                "name": "rsi_5m",
+                "type": "momentum",
+                "params": {
+                    "period": 14,
+                    "overbought": 70,
+                    "oversold": 30
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            },
+            {
+                "name": "rsi_15m",
+                "type": "momentum",
+                "params": {
+                    "period": 14,
+                    "overbought": 70,
+                    "oversold": 30
+                },
+                "enabled": true,
+                "timeframe": "1h"
+            }
+        ],
+        "entry_rules": [
+            {
+                "name": "شم",
+                "condition": {
+                    "type": "and",
+                    "conditions": [
+                        {
+                            "type": "indicator_crossover",
+                            "operator": "cross_above",
+                            "left_value": "indicator:sma_13_1h",
+                            "right_value": "indicator:sma_8_1h"
+                        },
+                        {
+                            "type": "indicator_value",
+                            "operator": ">",
+                            "left_value": "indicator:sma_8_1h",
+                            "right_value": "indicator:sma_13_1h"
+                        },
+                        {
+                            "type": "indicator_value",
+                            "operator": ">",
+                            "left_value": "indicator:rsi_5m",
+                            "right_value": "indicator:rsi_15m"
+                        },
+                        {
+                            "type": "indicator_value",
+                            "operator": ">",
+                            "left_value": "indicator:rsi_5m",
+                            "right_value": 70
+                        }
+                    ]
+                },
+                "position_side": "long",
+                "weight": 0.5,
+                "enabled": true
+            }
+        ],
+        "exit_rules": [
+            {
+                "name": "RSI Exit",
+                "condition": {
+                    "type": "indicator_value",
+                    "operator": ">",
+                    "left_value": "indicator:rsi",
+                    "right_value": 70
+                },
+                "exit_type": "signal_exit",
+                "enabled": true
+            }
+        ],
+        "filter_rules": [],
+        "risk_management": {
+            "stop_loss_percentage": 2,
+            "take_profit_percentage": 4,
+            "trailing_stop_percentage": 1,
+            "max_position_size": 0.1,
+            "max_daily_loss": 5,
+            "max_concurrent_positions": 3
+        },
+        "require_confirmation": false,
+        "confirmation_timeframe": "4h",
+        "max_signals_per_day": null
+    },
+    "start_date": "2025-12-07T19:31:46.798Z",
+    "end_date": "2026-01-06T19:31:46.798Z",
+    "symbols": [
+        "ETHUSDT"
+    ]
+}
+[API Proxy
+] Backend Error: 422 {
+    "detail": [
+        {
+            "type": "missing",
+            "loc": [
+                "body",
+                "timeframe"
+            ],
+            "msg": "Field required",
+            "input": {
+                "name": "New Strategy",
+                "version": "1.0.0",
+                "description": "سمنسمنمسن",
+                "base_timeframe": "1h",
+                "allowed_timeframes": [
+                    "1h",
+                    "4h",
+                    "1d"
+                ],
+                "position_side": "both",
+                "initial_capital": 10000,
+                "commission_rate": 0.001,
+                "indicators": [],
+                "entry_rules": [
+                    {
+                        "name": "RSI Entry",
+                        "condition": {
+                            "type": "indicator_value",
+                            "operator": "<",
+                            "left_value": "indicator:rsi",
+                            "right_value": 30
+                        },
+                        "position_side": "long",
+                        "weight": 0.5,
+                        "enabled": true
+                    }
+                ],
+                "exit_rules": [
+                    {
+                        "name": "RSI Exit",
+                        "condition": {
+                            "type": "indicator_value",
+                            "operator": ">",
+                            "left_value": "indicator:rsi",
+                            "right_value": 70
+                        },
+                        "exit_type": "signal_exit",
+                        "enabled": true
+                    }
+                ],
+                "filter_rules": [],
+                "risk_management": {
+                    "stop_loss_percentage": 2,
+                    "take_profit_percentage": 4,
+                    "trailing_stop_percentage": 1,
+                    "max_position_size": 0.1,
+                    "max_daily_loss": 5,
+                    "max_concurrent_positions": 3
+                },
+                "require_confirmation": false,
+                "confirmation_timeframe": "4h",
+                "max_signals_per_day": null,
+                "strategy_config": {
+                    "name": "New Strategy",
+                    "version": "1.0.0",
+                    "description": "",
+                    "base_timeframe": "1h",
+                    "allowed_timeframes": [
+                        "1h",
+                        "4h",
+                        "1d"
+                    ],
+                    "position_side": "both",
+                    "initial_capital": 10000,
+                    "commission_rate": 0.001,
+                    "indicators": [
+                        {
+                            "name": "sma_8_1h",
+                            "type": "trend",
+                            "params": {
+                                "period": 8
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        },
+                        {
+                            "name": "sma_13_1h",
+                            "type": "trend",
+                            "params": {
+                                "period": 13
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        },
+                        {
+                            "name": "sma_21_1h",
+                            "type": "trend",
+                            "params": {
+                                "period": 21
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        },
+                        {
+                            "name": "sma_50_1h",
+                            "type": "trend",
+                            "params": {
+                                "period": 50
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        },
+                        {
+                            "name": "sma_fast",
+                            "type": "trend",
+                            "params": {
+                                "period": 10
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        },
+                        {
+                            "name": "momentum_5m",
+                            "type": "momentum",
+                            "params": {
+                                "period": 10
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        },
+                        {
+                            "name": "momentum_10m",
+                            "type": "momentum",
+                            "params": {
+                                "period": 10
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        },
+                        {
+                            "name": "rsi_5m",
+                            "type": "momentum",
+                            "params": {
+                                "period": 14,
+                                "overbought": 70,
+                                "oversold": 30
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        },
+                        {
+                            "name": "rsi_15m",
+                            "type": "momentum",
+                            "params": {
+                                "period": 14,
+                                "overbought": 70,
+                                "oversold": 30
+                            },
+                            "enabled": true,
+                            "timeframe": "1h"
+                        }
+                    ],
+                    "entry_rules": [
+                        {
+                            "name": "شم",
+                            "condition": {
+                                "type": "and",
+                                "conditions": [
+                                    {
+                                        "type": "indicator_crossover",
+                                        "operator": "cross_above",
+                                        "left_value": "indicator:sma_13_1h",
+                                        "right_value": "indicator:sma_8_1h"
+                                    },
+                                    {
+                                        "type": "indicator_value",
+                                        "operator": ">",
+                                        "left_value": "indicator:sma_8_1h",
+                                        "right_value": "indicator:sma_13_1h"
+                                    },
+                                    {
+                                        "type": "indicator_value",
+                                        "operator": ">",
+                                        "left_value": "indicator:rsi_5m",
+                                        "right_value": "indicator:rsi_15m"
+                                    },
+                                    {
+                                        "type": "indicator_value",
+                                        "operator": ">",
+                                        "left_value": "indicator:rsi_5m",
+                                        "right_value": 70
+                                    }
+                                ]
+                            },
+                            "position_side": "long",
+                            "weight": 0.5,
+                            "enabled": true
+                        }
+                    ],
+                    "exit_rules": [
+                        {
+                            "name": "RSI Exit",
+                            "condition": {
+                                "type": "indicator_value",
+                                "operator": ">",
+                                "left_value": "indicator:rsi",
+                                "right_value": 70
+                            },
+                            "exit_type": "signal_exit",
+                            "enabled": true
+                        }
+                    ],
+                    "filter_rules": [],
+                    "risk_management": {
+                        "stop_loss_percentage": 2,
+                        "take_profit_percentage": 4,
+                        "trailing_stop_percentage": 1,
+                        "max_position_size": 0.1,
+                        "max_daily_loss": 5,
+                        "max_concurrent_positions": 3
+                    },
+                    "require_confirmation": false,
+                    "confirmation_timeframe": "4h",
+                    "max_signals_per_day": null
+                },
+                "start_date": "2025-12-07T19:31:46.798Z",
+                "end_date": "2026-01-06T19:31:46.798Z",
+                "symbols": [
+                    "ETHUSDT"
+                ]
+            },
+            "url": "https://errors.pydantic.dev/2.12/v/missing"
+        }
+    ]
+}
+

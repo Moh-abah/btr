@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  backend:
+    build: .
+    container_name: trading-backend
+    env_file:
+      - .env.production
+    ports:
+      - "8017:8000"
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
+
+  celery-worker:
+    build: .
+    container_name: trading-celery-worker
+    command: celery -A app.celery_app worker --loglevel=info
+    env_file:
+      - .env.production
+    restart: unless-stopped
+
+  celery-beat:
+    build: .
+    container_name: trading-celery-beat
+    command: celery -A app.celery_app beat --loglevel=info
+    env_file:
+      - .env.production
+    restart: unless-stopped

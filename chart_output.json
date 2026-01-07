@@ -1,0 +1,1216 @@
+{
+    "type": "chart_initialized",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "market": "crypto",
+    "data": {
+        "symbol": "ICPUSDT",
+        "timeframe": "1m",
+        "candles": [
+
+            {
+                "time": 1766324280000,
+                "open": 3.08,
+                "high": 3.086,
+                "low": 3.079,
+                "close": 3.083,
+                "volume": 3938.22
+            },
+            {
+                "time": 1766324340000,
+                "open": 3.083,
+                "high": 3.083,
+                "low": 3.075,
+                "close": 3.076,
+                "volume": 4918.17
+            },
+            {
+                "time": 1766324400000,
+                "open": 3.077,
+                "high": 3.078,
+                "low": 3.071,
+                "close": 3.076,
+                "volume": 16048.63
+            },
+            {
+                "time": 1766324460000,
+                "open": 3.076,
+                "high": 3.076,
+                "low": 3.072,
+                "close": 3.075,
+                "volume": 5214.31
+            },
+            {
+                "time": 1766324520000,
+                "open": 3.073,
+                "high": 3.073,
+                "low": 3.068,
+                "close": 3.07,
+                "volume": 9825.72
+            }
+        ],
+        "indicators": [],
+        "indicators_results": {},
+        "metadata": {
+            "total_candles": 900,
+            "last_update": 1766324570323,
+            "subscribers": 1
+        }
+    },
+    "time": 1766324573331
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324520000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 9707557.13
+    },
+    "indicators": {},
+    "time": 1766324574854
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324580000,
+        "open": 3.064,
+        "high": 3.065,
+        "low": 3.063,
+        "close": 3.063,
+        "volume": 233112784.19000006
+    },
+    "indicators": {},
+    "time": 1766324618365
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324580000,
+        "open": 3.064,
+        "high": 3.065,
+        "low": 3.063,
+        "close": 3.063,
+        "volume": 242827337.55000007
+    },
+    "indicators": {},
+    "time": 1766324623235
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324580000,
+        "open": 3.064,
+        "high": 3.065,
+        "low": 3.063,
+        "close": 3.063,
+        "volume": 252541890.9100001
+    },
+    "indicators": {},
+    "time": 1766324625607
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324580000,
+        "open": 3.064,
+        "high": 3.065,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 320548013.8200001
+    },
+    "indicators": {},
+    "time": 1766324639224
+}
+{
+    "type": "candle_close",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "candle": {
+        "time": 1766324640000,
+        "open": 3.064,
+        "high": 3.065,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 320548013.8200001
+    },
+    "indicators": {},
+    "time": 1766324640379
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.063,
+        "close": 3.063,
+        "volume": 9715737.36
+    },
+    "indicators": {},
+    "time": 1766324640379
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.063,
+        "close": 3.063,
+        "volume": 19431558.64
+    },
+    "indicators": {},
+    "time": 1766324641371
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.062,
+        "volume": 29147354.29
+    },
+    "indicators": {},
+    "time": 1766324644251
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.062,
+        "volume": 38863149.94
+    },
+    "indicators": {},
+    "time": 1766324645226
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 48578954.97
+    },
+    "indicators": {},
+    "time": 1766324656375
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 58294760.0
+    },
+    "indicators": {},
+    "time": 1766324658460
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 68010560.03
+    },
+    "indicators": {},
+    "time": 1766324663240
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 77726338.08
+    },
+    "indicators": {},
+    "time": 1766324669241
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 87442116.13
+    },
+    "indicators": {},
+    "time": 1766324670212
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 97157894.17999999
+    },
+    "indicators": {},
+    "time": 1766324677224
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 106873540.57
+    },
+    "indicators": {},
+    "time": 1766324688371
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 116589186.96
+    },
+    "indicators": {},
+    "time": 1766324689410
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324640000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.063,
+        "volume": 126304833.35
+    },
+    "indicators": {},
+    "time": 1766324693409
+}
+{
+    "type": "candle_close",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "candle": {
+        "time": 1766324700000,
+        "open": 3.063,
+        "high": 3.063,
+        "low": 3.062,
+        "close": 3.065,
+        "volume": 126304833.35
+    },
+    "indicators": {},
+    "time": 1766324700648
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 9716362.15
+    },
+    "indicators": {},
+    "time": 1766324700648
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 19432724.3
+    },
+    "indicators": {},
+    "time": 1766324701765
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 29146222.46
+    },
+    "indicators": {},
+    "time": 1766324702442
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 38859720.620000005
+    },
+    "indicators": {},
+    "time": 1766324703608
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 48573184.42
+    },
+    "indicators": {},
+    "time": 1766324704521
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 58286530.81
+    },
+    "indicators": {},
+    "time": 1766324706373
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 67999734.54
+    },
+    "indicators": {},
+    "time": 1766324709620
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 77712938.27000001
+    },
+    "indicators": {},
+    "time": 1766324710682
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 87426142.00000001
+    },
+    "indicators": {},
+    "time": 1766324711451
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 97139345.73000002
+    },
+    "indicators": {},
+    "time": 1766324712401
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 106852549.46000002
+    },
+    "indicators": {},
+    "time": 1766324713261
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 116564249.13000003
+    },
+    "indicators": {},
+    "time": 1766324715393
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 126274999.96000002
+    },
+    "indicators": {},
+    "time": 1766324719449
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 135984217.44000003
+    },
+    "indicators": {},
+    "time": 1766324720432
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 145693325.36
+    },
+    "indicators": {},
+    "time": 1766324721338
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 155402433.28
+    },
+    "indicators": {},
+    "time": 1766324722520
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 165111746.59
+    },
+    "indicators": {},
+    "time": 1766324723375
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 174820903.34
+    },
+    "indicators": {},
+    "time": 1766324724222
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 184529919.83
+    },
+    "indicators": {},
+    "time": 1766324727418
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 194238936.32000002
+    },
+    "indicators": {},
+    "time": 1766324728223
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 203947961.63000003
+    },
+    "indicators": {},
+    "time": 1766324737245
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 213657068.39000002
+    },
+    "indicators": {},
+    "time": 1766324738231
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 223366175.15
+    },
+    "indicators": {},
+    "time": 1766324740213
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 233075281.91
+    },
+    "indicators": {},
+    "time": 1766324741187
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 242784388.67
+    },
+    "indicators": {},
+    "time": 1766324743375
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 252493495.42999998
+    },
+    "indicators": {},
+    "time": 1766324745201
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 262202599.96999997
+    },
+    "indicators": {},
+    "time": 1766324747203
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 271911704.51
+    },
+    "indicators": {},
+    "time": 1766324749225
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 281620809.05
+    },
+    "indicators": {},
+    "time": 1766324750238
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 291329913.59000003
+    },
+    "indicators": {},
+    "time": 1766324751208
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 301039018.13000005
+    },
+    "indicators": {},
+    "time": 1766324752206
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.066,
+        "volume": 310748124.3000001
+    },
+    "indicators": {},
+    "time": 1766324755225
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324700000,
+        "open": 3.065,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.066,
+        "volume": 320457230.4700001
+    },
+    "indicators": {},
+    "time": 1766324759221
+}
+{
+    "type": "candle_close",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "candle": {
+        "time": 1766324760000,
+        "open": 3.065,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.066,
+        "volume": 320457230.4700001
+    },
+    "indicators": {},
+    "time": 1766324764258
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.066,
+        "close": 3.066,
+        "volume": 9706638.28
+    },
+    "indicators": {},
+    "time": 1766324764258
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 19413144.689999998
+    },
+    "indicators": {},
+    "time": 1766324770691
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 29119651.099999998
+    },
+    "indicators": {},
+    "time": 1766324771464
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 38826038.839999996
+    },
+    "indicators": {},
+    "time": 1766324772412
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 48532426.58
+    },
+    "indicators": {},
+    "time": 1766324777453
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 58238814.32
+    },
+    "indicators": {},
+    "time": 1766324781439
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 67945202.06
+    },
+    "indicators": {},
+    "time": 1766324782698
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 77651572.59
+    },
+    "indicators": {},
+    "time": 1766324785708
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 87357950.62
+    },
+    "indicators": {},
+    "time": 1766324792405
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 97063320.35000001
+    },
+    "indicators": {},
+    "time": 1766324797613
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 106768690.08000001
+    },
+    "indicators": {},
+    "time": 1766324803401
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324760000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 116474068.95000002
+    },
+    "indicators": {},
+    "time": 1766324805448
+}
+{
+    "type": "candle_close",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "candle": {
+        "time": 1766324820000,
+        "open": 3.066,
+        "high": 3.066,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 116474068.95000002
+    },
+    "indicators": {},
+    "time": 1766324830413
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 9702659.12
+    },
+    "indicators": {},
+    "time": 1766324830413
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 19405318.24
+    },
+    "indicators": {},
+    "time": 1766324832358
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 29107977.36
+    },
+    "indicators": {},
+    "time": 1766324833120
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 38810636.48
+    },
+    "indicators": {},
+    "time": 1766324833834
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 48513295.599999994
+    },
+    "indicators": {},
+    "time": 1766324834474
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 58216546.809999995
+    },
+    "indicators": {},
+    "time": 1766324851233
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 67919798.02
+    },
+    "indicators": {},
+    "time": 1766324852384
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 77623049.22999999
+    },
+    "indicators": {},
+    "time": 1766324853261
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 87326300.44
+    },
+    "indicators": {},
+    "time": 1766324854254
+}
+{
+    "type": "price_update",
+    "symbol": "ICPUSDT",
+    "timeframe": "1m",
+    "live_candle": {
+        "time": 1766324820000,
+        "open": 3.065,
+        "high": 3.065,
+        "low": 3.065,
+        "close": 3.065,
+        "volume": 97029551.65
+    },
+    "indicators": {},
+    "time": 1766324855230
+}
