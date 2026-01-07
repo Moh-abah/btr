@@ -23,8 +23,8 @@ class Settings(BaseSettings):
     POLYGON_API_KEY: Optional[str] = None
     
     # إعدادات التطبيق
-    DEBUG: bool = True
-    CORS_ORIGINS: list = ["http://localhost:3000"]
+    DEBUG: bool = False
+    CORS_ORIGINS: list = ["http://62.169.17.101:3018"]
 
     
     SECRET_KEY: str = "your-secret-key-here-change-in-production"
